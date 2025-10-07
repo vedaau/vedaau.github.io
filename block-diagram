@@ -1,1 +1,47 @@
+---
+layout: page
+title: Block Diagram – Fill Level Subsystem
+permalink: /block-diagram/
+---
 
+# Block Diagram – Fill Level Subsystem (Smart Trash Can)
+
+This page presents the individual block diagram for my subsystem in the Smart Trash Can project.  
+The fill-level subsystem detects the height of trash using a **VL53L1X Time-of-Flight Distance Sensor** connected to the **Microchip PIC18F57Q43 Curiosity Nano**.
+
+---
+
+## 📘 Block Diagram
+
+![Block diagram for fill level subsystem](block-diagram-fill-level.png)
+
+---
+
+## 🧰 Components
+
+| Component | Manufacturer | Part Number | Function |
+|------------|---------------|--------------|-----------|
+| Distance Sensor | STMicroelectronics | VL53L1X | Measures trash fill level |
+| MCU | Microchip | PIC18F57Q43 Curiosity Nano | Controls sensor and communication |
+| 3.3 V Regulator | Diodes Inc. | AP2112K-3.3 | Provides regulated 3.3 V |
+| 5 V Regulator | Texas Instruments | LM7805CT | Provides regulated 5 V |
+| Power Source | Generic | 9 V Battery / Adapter | Supplies input voltage |
+
+---
+
+## ⚡ Signal Summary
+
+- **Digital Serial (I²C)** — SCL = RC3, SDA = RC4 (3.3 V, 2 pins)  
+- **Digital Input (Interrupt)** — INT = RB0 (3.3 V, 1 pin)  
+- **Power** — 5 V Regulated (1.5 A max), 3.3 V Regulated (0.6 A max)
+
+---
+
+## 📝 Notes
+All components and signal labels follow course block-diagram guidelines.  
+This page is self-contained and does not link to external documents.
+
+---
+
+**Author:** Vedaa  
+**Course:** Embedded Systems Design (EECE 304)
