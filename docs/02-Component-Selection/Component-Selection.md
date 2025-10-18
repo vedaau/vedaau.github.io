@@ -1,8 +1,8 @@
 ---
-title: Component Selection Example
+title: Component Selection
 ---
 
-**External Clock Module**
+**Smart Trash Can - Trash Height Subsystem**
 
 1. XC1259TR-ND surface mount crystal
 
