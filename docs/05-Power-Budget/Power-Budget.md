@@ -1,6 +1,6 @@
 ---
 title: Power Budget
 ---
-  ![](powerbudget1.PNG)
+  ![](powerbudget1.png)
 
 The power budget as a PDF download is available [*here*](PowerBudgetExample.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetExample.xlsx).
