@@ -8,7 +8,7 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 
 ![schematic](Screenshotvu.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+
 
 
 ## Resouces
