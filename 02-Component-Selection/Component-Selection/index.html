@@ -777,25 +777,25 @@
 </thead>
 <tbody>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></strong> Option 1 VL53L1X ToF sensor $3.5/each <a href="https://www.futureelectronics.com/p/semiconductors--analog--sensors--time-off-flight-sensors/vl53l1cxv0fy-1-stmicroelectronics-3100441">Link to Product</a></td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></strong> Option 1 VL53L1X ToF sensor $3.5/each <a href="https://www.futureelectronics.com/p/semiconductors--analog--sensors--time-off-flight-sensors/vl53l1cxv0fy-1-stmicroelectronics-3100441">Link to Product</a></td>
 <td>High accuracy with distance measurements up to 4 meters. Fast response time. Compact size, making it easy to integrate into various devices. Low power consumption. Inexpensive</td>
 <td>Performance can be affected by ambient light conditions. Limited range compared to some other ToF sensors. Requires careful calibration for optimal accuracy. May struggle with reflective surfaces or dark materials. .</td>
 </tr>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../OPB732.png" data-desc-position="bottom"><img alt="" src="../OPB732.png"></a></strong> Option 2 OPB732 IR Sensor $4/each [Link to Product](<a href="https://www.onlinecomponents.com/en/productdetail/optek-technology-tt-electronics/opb732-51290988.html?ref=searchads360feed&amp;utm_term=OPB732&amp;&amp;msclkid=4a63ad14813c1e57d7c8c414e13a6363&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=875&amp;utm_term=opb732&amp;utm_content=51290988&amp;gclid=4a63ad14813c1e57d7c8c414e13a6363&amp;gclsrc=3p.ds&amp;gad_source=7&amp;gad_campaignid=8906769359">https://maxbotix.com/products/ultrasonic_sensors_mb1000</a></td>
-<td>Known component/setup. Compact. High availability.</td>
-<td>Limited range. Slightly expensive</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image2.png" data-desc-position="bottom"><img alt="" src="../image2.png"></a></strong> Option 2 OPB732 IR Sensor $4/each <a href="https://www.onlinecomponents.com/en/productdetail/optek-technology-tt-electronics/opb732-51290988.html?msclkid=839b99712d5c180a0780f070a541179a&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Bing%20-%20Pmax%20-%20US%20-%20Low&amp;utm_term=2332201602016770&amp;utm_content=Other&amp;gclid=839b99712d5c180a0780f070a541179a&amp;gclsrc=3p.ds&amp;gad_source=7&amp;gad_campaignid=23052854090">Link to Product</a></td>
+<td>Known component and setup Not too expensive Compact High availability</td>
+<td>Limited range  No modern features Interference sensitivity</td>
 </tr>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image4.png" data-desc-position="bottom"><img alt="" src="../image4.png"></a></strong> Option 3 Sharp GP2Y0A21YK0F IR analog distance sensor $7.25/each <a href="https://www.jameco.com/z/GP2Y0A21YK0F-Sharp-Electronic-Components-Sharp-IR-Distance-Sensor-GP2Y0A21YK0F-_2150256.html?CID=digipart">Link To Product</a></td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image3.png" data-desc-position="bottom"><img alt="" src="../image3.png"></a></strong> Option 3 Sharp GP2Y0A21YK0F IR analog distance sensor $7.25/each <a href="https://www.jameco.com/z/GP2Y0A21YK0F-Sharp-Electronic-Components-Sharp-IR-Distance-Sensor-GP2Y0A21YK0F-_2150256.html?CID=digipart">Link To Product</a></td>
 <td>Easy to interface with microcontrollers. Fast update rate for quick detection. Compact size Decent Range</td>
 <td>Anything closer than 10 cm won’t be reliably measured. High Power consumption. Output signal is noisy and non-linear. Lower accuracy at extremes / sensitivity to reflectance.</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> Time-of-Flight sensor (VL53L1X)<br>
-<strong>Rationale:</strong> The VL53L1X Time-of-Flight sensor provides accurate distance measurements without needing any external circuitry. This is ideal for our smart trash can. It also communicates easily with the PSoC through I²C. It also draws only about 16 mA during operation and can be put into shutdown mode to save power which is important for a battery-powered design. It is small, reliable, and easy to integrate, making it the best choice for consistent trash-level detection.</p>
-<p><strong>Load Switch for power control</strong></p>
+<p><strong>Choice:</strong> OPB732 IR Sensor<br>
+<strong>Rationale:</strong> The OPB732 IR sensor is a simple and reliable option that’s easy to set up with the Curiosity Nano board. It doesn’t need extra parts to work and gives consistent distance readings for our project. It’s small, affordable, and well-known, which makes testing and integration quick and straightforward..</p>
+<p><strong>Voltage Regulator</strong> </p>
 <table>
 <thead>
 <tr>
@@ -806,24 +806,24 @@
 </thead>
 <tbody>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="" src="../image1.png"></a></strong> Option 1 TI TPS22991 Load switch $0.081/each <a href="https://www.ti.com/product/TPS22991/part-details/PTPS22991BRAAR">Link to Product</a></td>
-<td>Low on-resistance (minimizes power loss and heat generation.) Fast system responsiveness. Integrated protection features  Compact package size  Wide input voltage range.</td>
-<td>Limited current handling Requires careful thermal management. May have limited availability in certain regions. Not suitable for applications requiring reverse current blocking.</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image4.png" data-desc-position="bottom"><img alt="" src="../image4.png"></a></strong> Option 1 LM7805 $1/each <a href="https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929">Link to Product</a></td>
+<td>Simplicity, very easy to use Low noise output Easily available  Cheap</td>
+<td>Requires external capacitors Not Adjustable</td>
 </tr>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image5.png" data-desc-position="bottom"><img alt="" src="../image5.png"></a></strong> Option 2 SIP32431DNP3-T1GE4 Power Load switch $0.53/each <a href="https://www.newark.com/vishay/sip32431dnp3-t1ge4/power-load-switch-high-side-tdfn/dp/61AC1925?CMP=KNC-BUSA-GEN-NEW-SKU-Optmyzr-Semis-IC&amp;msclkid=f69a3dd9c9d118ba558d552b22f67f25">Link to Product</a></td>
-<td>Very low operating current (typically 10 pA at 3.3V) and low shutdown leakage  Low on-resistance Compact package Wide input voltage range Slew rate turn-on: The switch turn-on time of 100 μs.</td>
-<td>No integrated protection. Lower continuous current. Fixed slew rate. Less robust than smart load switches.</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image5.png" data-desc-position="bottom"><img alt="" src="../image5.png"></a></strong> Option 2 AMS1117-5.0 $0.5/each <a href="https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130">Link to Product</a></td>
+<td>Low Dropout Voltage Widely Available Compact package Built-in Protections</td>
+<td>Thermal Issues Fixed Output Sensitive to Capacitor Choice</td>
 </tr>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image2.png" data-desc-position="bottom"><img alt="" src="../image2.png"></a></strong> Option 3 TPS22910A Load switch $0.224/each <a href="https://www.ti.com/product/TPS22910A/part-details/TPS22910AYZVR">Link to Product</a></td>
-<td>Low on-resistance. Fast system responsiveness. Integrated protection features. Compact package size. Wide input voltage range..</td>
-<td>Limited output current capability Requires external components for complete functionality. Not suitable for high-frequency switching applications due to limited bandwidth. Slightly higher quiescent current compared to some alternatives.</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image6.png" data-desc-position="bottom"><img alt="" src="../image6.png"></a></strong> Option 3 LM2596 $2/each <a href="https://www.ti.com/lit/ds/symlink/lm2596.pdf">Link to Product</a></td>
+<td>Adjustable Output Wide Input Voltage Range. Integrated protection features. Stable Output</td>
+<td>Complex design Generates electrical noise Larger Circuit Footprint</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> TI TPS22910A Load Switch<br>
-<strong>Rationale:</strong> It provides a low on-resistance of approximately 60 mΩ, which minimizes voltage drop and heat loss. It also includes integrated protection features and a wide 1.4 V–5.5 V input range, making it easy to power the 3.3 V sensor from a battery or USB source. While the package is small and slightly harder to solder, its fast response and efficiency make it the most practical choice for controlling power to the VL53L1X sensor.</p>
+<p><strong>Choice:</strong> LM7805<br>
+<strong>Rationale:</strong> The LM7805 is an easy-to-use and dependable voltage regulator that works well with the Curiosity Nano board. It gives a stable 5V output and only needs a couple of capacitors to set up. It’s inexpensive, widely available, and provides reliable power for the sensor and other parts of the circuit, making it a practical choice for this project.</p>
 
 
 
