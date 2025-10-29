@@ -6,11 +6,11 @@ tags:
 ---
 
 <center>
-<font size="6">Vedaa Ubale Datasheet</font><br>
+<font size="6">Vedaa Ubale's Datasheet</font><br>
 as part of<br>
-<font size="8">First Project</font><br>
+<font size="8">The AutoCan</font><br>
 for<br>
-<font size="5">Team #1</font><br>
+<font size="5">Team 202</font><br>
 
 **Submission: October 30, 2025**
 </center>
@@ -28,8 +28,8 @@ For full details of the team project, please visit the [team report](https://egr
 
 ### My Contribution
 
-As a member of **Team #202**, my role includes:  
-- Developing the power budget and analyzing energy requirements  
+My part in the Autocan project was to design the Trash Height Subsystem. To do this, I researched and designed parts that would work together to measure the trash fill level and communicate when it reaches capacity. The following are the major steps I have taken in designing my subsystem:  
+- To view my Block Diagram, click ["here"](https://vedaau.github.io/01-Block-Diagram/Block-Diagram/). This part of the design process shows the general idea of how my PCB will function and how it connects to the IR sensor to detect trash height and send signals to the External IR Sensor and UI Lights subsystem. 
 - Documenting component specifications  
 - Supporting testing and integration  
 
