@@ -29,11 +29,10 @@ For full details of the team project, please visit the [team report](https://egr
 ### My Contribution
 
 My part in the Autocan project was to design the Trash Height Subsystem. To do this, I researched and designed parts that would work together to measure the trash fill level and communicate when it reaches capacity. The following are the major steps I have taken in designing my subsystem:  
-- To view my Block Diagram, click ["here"](https://vedaau.github.io/01-Block-Diagram/Block-Diagram/). This part of the design process shows the general idea of how my PCB will function and how it connects to the IR sensor to detect trash height and send signals to the External IR Sensor and UI Lights subsystem. 
-- Documenting component specifications  
-- Supporting testing and integration  
-
-To review details about materials used in my part of the project,  
-see the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of this datasheet.  
+- To view my Block Diagram, click [here](https://vedaau.github.io/01-Block-Diagram/Block-Diagram/). This part of the design process shows the general idea of how my PCB will function and how it connects to the IR sensor to detect trash height and send signals to the External IR Sensor and UI Lights subsystem. 
+- To view my Component Selection, click [here](https://vedaau.github.io/02-Component-Selection/Component-Selection/). This part of the design process displays the major components needed to build my subsystem including the IR sensor and supporting circuitry as well as the parts I reviewed to choose the best fit for my design.
+- To review details about materials used in my part of the project, click [here](https://vedaau.github.io/03-BOM/BOM/). 
+- To view my Schematic, click [here](https://vedaau.github.io/04-Schematic/schematic/). This part of the design process shows the schematic for my subsystem, created using KiCad 9.0. 
+- To view my Power Budget, click [here](https://vedaau.github.io/05-Power-Budget/Power-Budget/). This part of the design process shows the expected power consumption of all components in my subsystem, used to select the correct fuse for the power supply.
 
 For all other sections, use the navigation menu to explore specific documentation.  
