@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is primarily designed to support the Trash Height Subsystem of the AutoCan. This subsystem uses an IR sensor to detect when the trash has reached a critical height and sends a signal to the External IR Sensor and UI Lights subsystem. The signal triggers the front-facing LED to inform the user that the trash is full and needs to be emptied.
 
 
 ![schematic](schematicvedaaunew.PNG){style width:"350" height:"300;"}
