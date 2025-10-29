@@ -10,9 +10,7 @@ The following are the components I have selected for my subsystem and the reason
 
 | Solution | Pros  | Cons |
 | ----- | ----- | ----- |
-| **![](image1.png)** Option 1 VL53L1X ToF sensor $3.5/each [Link to Product](https://www.futureelectronics.com/p/semiconductors--analog--sensors--time-off-flight-sensors/vl53l1cxv0fy-1-stmicroelectronics-3100441) | 
-
-- High accuracy with distance measurements up to 4 meters.
+| **![](image1.png)** Option 1 VL53L1X ToF sensor $3.5/each [Link to Product](https://www.futureelectronics.com/p/semiconductors--analog--sensors--time-off-flight-sensors/vl53l1cxv0fy-1-stmicroelectronics-3100441) | - High accuracy with distance measurements up to 4 meters.
 - Fast response time.
 - Compact size, making it easy to integrate into various devices.
 - Low power consumption. Inexpensive | Performance can be affected by ambient light conditions. Limited range compared to some other ToF sensors. Requires careful calibration for optimal accuracy. May struggle with reflective surfaces or dark materials. . |
