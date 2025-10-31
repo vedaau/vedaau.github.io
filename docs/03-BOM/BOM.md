@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-written context
+This Bill of Materials (BOM) supports the design and implementation of the trash-height detection subsystem which uses an IR sensor to measure the fill-level of a trash container. The list details each component required, including passive components (capacitors, resistors, potentiometer), active devices (op-amp, microcontroller board, voltage regulator), connectors and headers, and discrete parts such as the IR sensor diode (OPB732). Each entry specifies quantity, unit cost, total cost, manufacturer, part number, vendor link and datasheet link, as well as schematic reference designators. This BOM ensures the system is fully documented for procurement, assembly and integration into the overall system architecture for the EGR 304 project.
 
 ## Bill of Materials
 
@@ -15,7 +15,7 @@ written context
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
 0.33uF capacitor | 1 | $0.42 | $0.42 | KEMET | C322C334Z5U5TA | [DigiKey](https://www.digikey.com/en/products/detail/kemet/C322C334Z5U5TA/3726088?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gclid=Cj0KCQjwmYzIBhC6ARIsAHA3IkTUvAUXjaSi9dtqd5UQ1oWlLs1yzOiD5bXtdA-xDQW9BfX5BuDegBMaAuZIEALw_wcB) | [datasheet link](https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1051_GOLDMAX_Z5U) | C1 |
-0.1uF capacitor | 2 | $0.39 | $0.78 | KEMET | C322C104M5U5TA | [DigiKey](&gclid=Cj0KCQjwmYzIBhC6ARIsAHA3IkQtVsDJy4La9kynxretCKE3b74tBP1tosbPa4mKWG84mkcgQY-QJS8aAqSAEALw_wcB) | [datasheet link](https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1051_GOLDMAX_Z5U) | C2-C3 |
+0.1uF capacitor | 2 | $0.39 | $0.78 | KEMET | C322C104M5U5TA | [DigiKey](&gclid=Cj0KCQjwmYzIBhC6ARIsAHA3IkQtVsDJy4La9kynxretCKE3b74tBP1tosbPa4mKWG84mkcgQY-QJS8aAqSAEALw_wcB) | [datasheet link](https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1051_GOLDMAX_Z5U) | C2,C3 |
 OPB732 IR Sensor |	1	| $4.61 | $4.61	| TT Electronics |	OPB732	| [DigiKey](https://www.digikey.com/en/products/detail/tt-electronics-optek-technology/OPB732/1637069?gclsrc=aw.ds&gad_source=1&gad_campaignid=21273973101&gclid=Cj0KCQjwmYzIBhC6ARIsAHA3IkSRhO-bFPHoLjwqIrTDQ04XzZY1NKeBzUZbvYei4oCVcpdpwbTVapcaAsXQEALw_wcB) | [datasheet link](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/OPB732.pdf) |	D2 |
 Light emitting diode	| 1	| $0.15 |	$0.15	| Würth Elektronik | 151051RS11000	| [DigiKey](https://www.digikey.com/en/products/detail/w-rth-elektronik/151051RS11000/4490012) | [datasheet link](https://www.we-online.com/components/products/datasheet/151051RS11000.pdf) |	D5 |
 500 mA Fuse 5x20	|	1	|	$0.51 |	$0.51	|	Littelfuse Inc.	|	0217.500HXP	|	[DigiKey](https://www.digikey.com/en/products/detail/littelfuse-inc/0217.500HXP/777105)|	[datasheet link](https://www.littelfuse.com/assetdocs/littelfuse-fuse-217-datasheet?assetguid=af55be94-c42e-41b1-ad43-e070e09443fe)	|	F1	|
