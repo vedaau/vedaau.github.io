@@ -1,6 +1,6 @@
 ---
 title: Power Budget
 ---
- ![](powerbudgetvu.PNG)
+ ![](PowerBudgetVedaafinal.png)
  
-The power budget as a PDF download is available [*here*](powerbudgetvu.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetVedaa.xlsx).
+The power budget as a PDF download is available [*here*](PowerBudgetVedaafinal.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetVedaafinal.xlsx).
