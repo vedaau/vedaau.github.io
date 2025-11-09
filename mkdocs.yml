@@ -48,3 +48,18 @@ draft_docs: |
 plugins:
   - search
   - glightbox # allow re
+
+nav:
+  - Home: index.md
+  - Block Diagram: 01-Block-Diagram/Block-Diagram.md
+  - Component Selection: 02-Component-Selection/Component-Selection.md
+  - BOM: 03-BOM/BOM.md
+  - Schematic: 04-Schematic/schematic.md
+  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - PCB Design: 06-PCB/PCB.md
+  - Appendix: 
+    - Appendix/index.md
+    - Basic Markdown Examples: Appendix/basic-markdown-examples.md
+    - Charts: Appendix/charts.md
+    - ESP-32 Table: Appendix/esp-32-table.md
+    - Another Subfile: Appendix/another-subfile.md
