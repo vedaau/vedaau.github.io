@@ -9,31 +9,13 @@ This section contains the PCB (Printed Circuit Board) design for the AutoCan pro
 
 ## PCB Layout
 
-<!-- Add your PCB layout image here -->
-<!-- ![PCB Layout](pcb-layout.png) -->
+Figure 01: Showing Vedaa's Front PCB Design.
+![Front PCB](motorsubsystem.png){style width:"350" height:"300;"}
 
+Figure 02: Showing Vedaa Ubale's Back PCB Design.
+![Back PCB](motorsubsystem.png){style width:"350" height:"300;"}
 
-## Design Specifications
-
-- **Board Dimensions**: TBD
-- **Number of Layers**: TBD
-- **Board Material**: FR-4
-- **Copper Thickness**: TBD
-- **Finish**: TBD
-
-
-## Design Considerations
-
-- Component placement optimization
-- Trace routing and signal integrity
-- Power distribution
-- Thermal management
-- Manufacturing constraints
-
-
-## Resources
-
-<!-- The PCB design files will be available for download here -->
-<!-- - [PCB Gerber Files](pcb-gerber.zip) -->
-<!-- - [PCB Design PDF](pcb-design.pdf) -->
-<!-- - [PCB Source Files](pcb-source.zip) -->
+The Front PCB design as a PDF download is available [*here*](motorsubsystem-F_Cu.pdf).
+The Back PCB design as a PDF download is available [*here*](motorsubsystem-B_Cu.pdf).
+The Zip folder of the project is available [*here*](motorsubsystemvedaaubale.zip).
+The Zip folder of the Gerber and drill files are [*here*](motorsubsystemgerberdrl.zip).
