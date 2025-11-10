@@ -13,4 +13,4 @@ This schematic is primarily designed to support the Trash Height Subsystem of th
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](schematicvuFINAL.pdf), and the Zip folder of the project [*here*](schematicvuFINAL.zip).
+The schematic as a PDF download is available [*here*](motorsubsystem.pdf), and the Zip folder of the project [*here*](schematicvuFINAL.zip).
