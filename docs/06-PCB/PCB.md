@@ -10,10 +10,10 @@ This section contains the PCB (Printed Circuit Board) design for the AutoCan pro
 ## PCB Layout
 
 Figure 01: Showing Vedaa's Front PCB Design.
-![Front PCB](motorsubsystem-F_Cu.png){style width:"350" height:"300;"}
+![Front PCB](motorsubsystem-F_Cu1.png){style width:"350" height:"300;"}
 
 Figure 02: Showing Vedaa Ubale's Back PCB Design.
-![Back PCB](motorsubsystem-B_Cu.png){style width:"350" height:"300;"}
+![Back PCB](motorsubsystem-B_Cu1.png){style width:"350" height:"300;"}
 
 The Front PCB design as a PDF download is available [*here*](motorsubsystem-F_Cu.pdf).
 The Back PCB design as a PDF download is available [*here*](motorsubsystem-B_Cu.pdf).
