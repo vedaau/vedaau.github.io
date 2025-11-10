@@ -4,10 +4,10 @@ title: Schematic
 
 ## Overview
 
-This schematic is primarily designed to support the Trash Height Subsystem of the AutoCan. This subsystem uses an IR sensor to detect when the trash has reached a critical height and sends a signal to the External IR Sensor and UI Lights subsystem. The signal triggers the front-facing LED to inform the user that the trash is full and needs to be emptied.
+This schematic is primarily designed to support the Lid Control Subsystem of the AutoCan. This subsystem interfaces with the IR Sensor Subsystem, which detects the presence of a user near the trash can. Upon receiving this signal, the Lid Control Subsystem utilizes an H-bridge motor driver circuit to control the direction and motion of the lid’s motor, enabling automatic opening and closing. This design ensures efficient, hands-free operation and responsive user interaction.
 
 
-![schematic](schematicvuFINAL.png){style width:"350" height:"300;"}
+![schematic](motorsubsystem.png){style width:"350" height:"300;"}
 
 
 
