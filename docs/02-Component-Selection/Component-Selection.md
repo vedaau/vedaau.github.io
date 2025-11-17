@@ -19,7 +19,7 @@ The following are the components I have selected for my subsystem and the reason
 
 **H-Bridge** 
 
-| Solution | Pros | Cons |
+| Solution | Pros  | Cons |
 | ----- | ----- | ----- |
 | **![](16999.jpg)** Option 1 <br> FAN8100N <br> $1.16/each <br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/FAN8100N/966896?&msclkid=4365b6bb40ef1801d8acdfa0c82914a2&gclid=4365b6bb40ef1801d8acdfa0c82914a2&gclsrc=3p.ds&gad_source=7&gad_campaignid=21987644300) | Simplicity, easy to use <br><br> I already own one <br><br> Cheap | No longer manufactured <br><br> Lacks advanced features  |
 | **![](image5.jpg)** Option 2 <br> AMS1117-5.0 <br> $0.5/each <br> [Link to Product](https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130) | Low Dropout Voltage <br><br> Widely Available <br><br> Compact package <br><br> Built-in Protections | Thermal Issues <br><br> Fixed Output <br> Sensitive to Capacitor Choice |
