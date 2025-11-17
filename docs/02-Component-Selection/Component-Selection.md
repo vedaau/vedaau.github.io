@@ -6,7 +6,7 @@ title: Component Selection
 
 The following are the components I have selected for my subsystem and the reason as to why I chose them.
 
-**Height/Distance sensor**
+**Motor**
 
 | Solution | Pros  | Cons |
 | ----- | ----- | ----- |
@@ -17,7 +17,7 @@ The following are the components I have selected for my subsystem and the reason
 **Choice:** OPB732 IR Sensor  
 **Rationale:** The OPB732 IR sensor is a simple and reliable option that’s easy to set up with the Curiosity Nano board. It doesn’t need extra parts to work and gives consistent distance readings for our project. It’s small, affordable, and well-known, which makes testing and integration quick and straightforward..
 
-**Voltage Regulator** 
+**H-Bridge** 
 
 | Solution | Pros | Cons |
 | ----- | ----- | ----- |
