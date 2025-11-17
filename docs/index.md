@@ -17,7 +17,7 @@ for<br>
 
 ## Introduction
 
-This datasheet shows the design and development for the Trash Height Subsystem for Team 202's AutoCan: Automatic Trash Can Project.  
+This datasheet shows the design and development for the Lid Motor Subsystem for Team 202's AutoCan: Automatic Trash Can Project.  
 This subsystem uses a DC motor and motor-driver circuit to automatically open and close the trash can lid. Based on input signals from the External IR Sensor and UI Lights subsystem, it activates the motor to lift or lower the lid, improving usability and hands-free operation.
 ### Project Summary
 
