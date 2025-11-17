@@ -11,7 +11,7 @@ This subsystem automatically opens and closes the trash-can lid using a DC motor
 The subsystem is powered by a 9V supply, with a 5V regulator providing the logic voltage required by the Curiosity Nano and its connected inputs and outputs. Communication between this subsystem and the external IR sensor and IU lights subsystem is handled through the shared connector.
 
 
-## Internal Lid Motor Subsystem Block Diagram
+## Lid Motor Subsystem Block Diagram
 Vedaa Ubale's Lid Motor Subsystem 
 
 ![Indivial Block diagram](vedaafinalblockdiagrammotor.drawio.png)
