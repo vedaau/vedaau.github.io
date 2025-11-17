@@ -21,7 +21,7 @@ The following are the components I have selected for my subsystem and the reason
 
 | Solution | Pros | Cons |
 | ----- | ----- | ----- |
-| **![](image4.jpg)** Option 1 <br> LM7805 <br> $1/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929) | Simplicity, very easy to use <br><br> Low noise output <br><br> Easily available <br><br> Cheap | Requires external capacitors <br><br> Not Adjustable  |
+| **![](16999.jpg)** Option 1 <br> FAN8100N <br> $1.16/each <br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/FAN8100N/966896?&msclkid=4365b6bb40ef1801d8acdfa0c82914a2&gclid=4365b6bb40ef1801d8acdfa0c82914a2&gclsrc=3p.ds&gad_source=7&gad_campaignid=21987644300) | Simplicity, easy to use <br><br> I already own one <br><br> Cheap | No longer manufactured <br><br> Lacks advanced features  |
 | **![](image5.jpg)** Option 2 <br> AMS1117-5.0 <br> $0.5/each <br> [Link to Product](https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130) | Low Dropout Voltage <br><br> Widely Available <br><br> Compact package <br><br> Built-in Protections | Thermal Issues <br><br> Fixed Output <br> Sensitive to Capacitor Choice |
 | **![](image6.jpg)** Option 3 <br> LM2596 <br> $2/each <br> [Link to Product](https://www.ti.com/lit/ds/symlink/lm2596.pdf) | Adjustable Output <br><br> Wide Input Voltage Range.<br><br> Integrated protection features.<br><br> Stable Output | Complex design <br><br> Generates electrical noise<br><br> Larger Circuit Footprint   |
 
