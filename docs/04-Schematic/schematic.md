@@ -13,4 +13,4 @@ This schematic is primarily designed to support the Lid Control Subsystem of the
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](motorsubsystemschematic.pdf), and the Zip folder of the project [*here*](motorsubsystemvedaaubale.zip).
+The schematic as a PDF download is available [*here*](motorsubsystemv.pdf), and the Zip folder of the project [*here*](motorsubsystemvedaaubale.zip).
