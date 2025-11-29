@@ -22,7 +22,7 @@ The following are the components I have selected for my subsystem and the reason
 | Solution | Pros  | Cons |
 | ----- | ----- | ----- |
 | **![](16999.jpg)** Option 1 <br> FAN8100N <br> $1.16/each <br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/FAN8100N/966896?&msclkid=4365b6bb40ef1801d8acdfa0c82914a2&gclid=4365b6bb40ef1801d8acdfa0c82914a2&gclsrc=3p.ds&gad_source=7&gad_campaignid=21987644300) | Simplicity, easy to use <br><br> I already own one <br><br> Cheap | No longer manufactured <br><br> Lacks advanced features  |
-| **![](sn7.jpg)** Option 2 <br> SN74AHC123AN <br> $0.69/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/SN74AHC123AN/1576327?&msclkid=c110e56574af16ae52bb8c4f04f2120a&gclid=c110e56574af16ae52bb8c4f04f2120a&gclsrc=3p.ds&gad_source=7&gad_campaignid=21987644300) | Wide Operating Voltage Range <br><br> Dual Channels <br><br> Timing Stability <br><br> Wide Temperature Range | Limited output <br><br> Sensitive to Noise |
+| **![](ncv.jpg)** Option 2 <br> NCV7703CD2R2G <br> $2.40/each <br> [Link to Product](https://www.digikey.com/en/products/detail/onsemi/NCV7703CD2R2G/7325621) | Flexible motor/bridge control <br><br> Protection features built-in. <br><br> Cost-effective <br><br> Widely available. | Limited continuous current capability. <br><br> Potential complexity in firmware/hardware integration. |
 | **![](image6.jpg)** Option 3 <br> LM2596 <br> $2/each <br> [Link to Product](https://www.ti.com/lit/ds/symlink/lm2596.pdf) | Adjustable Output <br><br> Wide Input Voltage Range.<br><br> Integrated protection features.<br><br> Stable Output | Complex design <br><br> Generates electrical noise<br><br> Larger Circuit Footprint   |
 
 **Choice:** LM7805  
