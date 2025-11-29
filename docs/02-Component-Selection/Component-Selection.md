@@ -14,7 +14,7 @@ The following are the components I have selected for my subsystem and the reason
 | **![](rob.jpg)** Option 2 <br> ROB-11696 STANDARD MOTOR 12V <br> $2.75/each<br> [Link to Product](https://www.digikey.com/en/products/detail/sparkfun-electronics/11696/6163657) | Very low cost <br><br> Good no-load speed <br><br> Compact <br><br> High availability | Limited torque/power <br><br> No speed control <br><br> Noise, brush wear, and maintenance. |
 | **![](fit.jpg)** <br> Option 3 <br> FIT0495-A 6V DC Motor <br> $10/each <br> [Link To Product](https://www.digikey.com/en/products/detail/dfrobot/FIT0495-A/7087178) | Simple and straightforward to use.<br><br> High torque. <br><br> Compact size <br><br> Decent Voltage Range | Very slow output speed <br><br> Limited to low-to-moderate workloads. <br><br> Low operating voltage. | 
 
-**Choice:** 33JPF-15380-50 12V DC Motor <br>
+**Choice:** 33JPF-15380-50 12V DC Motor 
 
 **Rationale:** This motor was chosen because it provides good torque for its size, lets us control the speed easily, and only needs a simple 2-wire connection. It also works well with the mechanical load of our design. Since we already own this motor, we avoid extra cost and shipping delays.
 The downsides such as some gearbox noise, lower precision, and shorter life under heavy use are acceptable because our project does not need high accuracy or long-term continuous operation.
