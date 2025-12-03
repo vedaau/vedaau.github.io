@@ -750,7 +750,7 @@
 </tbody>
 </table>
 <p><strong>Choice:</strong> 33JPF-15380-50 12V DC Motor </p>
-<p><strong>Rationale:</strong> This motor was chosen because it provides good torque for its size, lets us control the speed easily, and only needs a simple 2-wire connection. It also works well with the mechanical load of our design. Since we already own this motor, we avoid extra cost and shipping delays.
+<p><strong>Rationale:</strong> This motor was chosen because it provides good torque for its size, lets us control the speed easily, and only needs a simple 2-wire connection. It also works well with the mechanical load of my design. Since I already own this motor, we avoid extra cost and shipping delays.
 The downsides such as some gearbox noise, lower precision, and shorter life under heavy use are acceptable because our project does not need high accuracy or long-term continuous operation.</p>
 <p><strong>H-Bridge</strong> </p>
 <table>
@@ -780,7 +780,36 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 </tbody>
 </table>
 <p><strong>Choice:</strong> FAN8100N<br>
-<strong>Rationale:</strong> We chose the FAN8100N driver because it is simple to use, fits easily into our circuit, and we already have it available. This saves time and avoids buying new parts. Although it lacks advanced features and may be older hardware, it is still suitable because the motor only needs basic control (on/off and forward/reverse). Long-term durability or advanced functions are not important for this project.</p>
+<strong>Rationale:</strong> I chose the FAN8100N driver because it is simple to use, fits easily into my circuit, and I already have it available. This saves time and avoids buying new parts. Although it lacks advanced features and may be older hardware, it is still suitable because the motor only needs basic control (on/off and forward/reverse). Long-term durability or advanced functions are not important for this project.</p>
+<p><strong>Voltage Regulator</strong> </p>
+<table>
+<thead>
+<tr>
+<th>Solution</th>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../16999.jpg" data-desc-position="bottom"><img alt="" src="../16999.jpg"></a></strong> Option 1 <br> LM7805 <br> $0.55/each <br> <a href="https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929">Link to Product</a></td>
+<td>Simplicity, easy to use <br><br> I already own one <br><br> Reliable</td>
+<td>High dropout voltage <br><br> Gets hot</td>
+</tr>
+<tr>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ncv.jpg" data-desc-position="bottom"><img alt="" src="../ncv.jpg"></a></strong> Option 2 <br> UA7805CKCS <br> $1.34/each <br> <a href="https://www.digikey.com/en/products/detail/texas-instruments/UA7805CKCSE3/1494012">Link to Product</a></td>
+<td>Can handle higher current <br><br> Very reliable design <br><br> Good performance under heavy loads</td>
+<td>Also has a high dropout <br><br> Can create heat if input voltage is much higher than 5V.</td>
+</tr>
+<tr>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../drv.jpg" data-desc-position="bottom"><img alt="" src="../drv.jpg"></a></strong> Option 3 <br> AMS1117-5.0 <br> $0.12/each <br> <a href="https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130">Link to Product</a></td>
+<td>Lower dropout (about 1.1V) <br><br> Very cheap <br><br> Compact</td>
+<td>Can only handle about 1A of current <br><br> Runs hot at high load <br><br> TNot as robust as the 7805</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Choice:</strong> LM7805
+<strong>Rationale:</strong> I chose the FAN8100N driver because it is simple to use, fits easily into our circuit, and we already have it available. This saves time and avoids buying new parts. Although it lacks advanced features and may be older hardware, it is still suitable because the motor only needs basic control (on/off and forward/reverse). Long-term durability or advanced functions are not important for this project.</p>
 
 
 
