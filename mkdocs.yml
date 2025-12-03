@@ -57,6 +57,7 @@ nav:
   - Schematic: 04-Schematic/schematic.md
   - Power Budget: 05-Power-Budget/Power-Budget.md
   - PCB Design: 06-PCB/PCB.md
+  - Microcontroller Code: 07-Microcontroller-Code/Microcontroller-Code.md
   - Appendix: 
     - Appendix/index.md
     - Basic Markdown Examples: Appendix/basic-markdown-examples.md
