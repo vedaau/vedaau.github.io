@@ -64,7 +64,7 @@ int main(void)
 
 ## Resources
 
- [Source Code](motor_subsystem.zip) 
+This is the project code zip file:[Microcontroller code](motor_subsystem.zip) 
 
 
 
