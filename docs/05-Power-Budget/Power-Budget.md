@@ -1,6 +1,6 @@
 ---
 title: Power Budget
 ---
- ![](xlsmotor.jpg)
- 
-The power budget as a PDF download is available [*here*](PowerBudgetVedaamotor.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetVedaamotor.xlsx).
+ ![](xlsmotor1.jpg)
+ ![](xlsmotor2.jpg)
+The power budget as a PDF download is available [*here*](PowerBudgetVedaamotor1.pdf), and a Microsoft Excel Sheet [*here*](PowerBudgetVedaamotor1.xlsx).
