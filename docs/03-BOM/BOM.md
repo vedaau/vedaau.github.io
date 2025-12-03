@@ -10,7 +10,7 @@ This Bill of Materials (BOM) lists all the parts needed for the trash-lid motor 
 
 ## Bill of Materials
 
-*Table ##: BOM table
+**Table #1: BOM table**
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
