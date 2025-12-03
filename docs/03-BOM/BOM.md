@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Overview
-This Bill of Materials (BOM) supports the design and implementation of the trash-height detection subsystem which uses an IR sensor to measure the fill-level of a trash container. The list details each component required, including passive components (capacitors, resistors, potentiometer), active devices (op-amp, microcontroller board, voltage regulator), connectors and headers, and discrete parts such as the IR sensor diode (OPB732). Each entry specifies quantity, unit cost, total cost, manufacturer, part number, vendor link and datasheet link, as well as schematic reference designators. This BOM ensures the system is fully documented for procurement, assembly and integration into the overall system architecture for the EGR 304 project.
+This Bill of Materials (BOM) lists all the parts needed for the trash-lid motor subsystem. This subsystem takes a signal from the external IR sensor system and uses an H-bridge to control a DC motor that opens and closes the trash lid. The BOM includes basic parts like resistors and capacitors, the H-bridge motor driver, the DC motor, connectors, and any power parts needed. Each item includes the quantity, cost, part number, and links for ordering or datasheets. This BOM makes it easy to buy the parts and put the system together for the EGR 304 project.
 
 ## Bill of Materials
 
