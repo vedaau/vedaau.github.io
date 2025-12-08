@@ -719,8 +719,8 @@
   <h1>Power Budget</h1>
 
 <h2 id="overview">Overview</h2>
-<p>Here is the the power budget for my Lid motor subsystem. I have calculated and listed the power draw of all the major components in order to decide whether my power supply will be enough to handle everything and what value fuse I should use.
-<br><br></p>
+<p>Here is the the power budget for my Lid motor subsystem. When I analyzed the power budget, I saw that the 5 V rail needs about 0.7 A after adding a 25% safety margin, and the 9 V rail normally draws around 0.2–0.3 A but can spike to about 0.5–1 A when the motor starts. Since both rails ultimately pull from the 9 V supply, I estimated the total system demand to be roughly 1.0–1.3 A during normal operation, with short peaks reaching close to 2 A. Based on that, I concluded that a 1 A fuse would probably blow during motor startup, while a 2 A slow-blow fuse would handle both the steady load and the momentary surges without nuisance tripping. So from the power budget, I determined that a <strong>2 A slow-blow fuse</strong> is the safest and most reliable choice.</p>
+<p><br><br></p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../xlsmotor1.jpg" data-desc-position="bottom"><img alt="" src="../xlsmotor1.jpg"></a>
  <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../xlsmotor2.jpg" data-desc-position="bottom"><img alt="" src="../xlsmotor2.jpg"></a>
 The power budget as a PDF download is available <a href="../PowerBudgetVedaamotor1.pdf"><em>here</em></a>, and a Microsoft Excel Sheet <a href="../PowerBudgetVedaamotor1.xlsx"><em>here</em></a>.</p>
