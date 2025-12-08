@@ -34,9 +34,9 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 
 | Solution | Pros  | Cons |
 | ----- | ----- | ----- |
-| **![](16999.jpg)** Option 1 <br> LM7805 <br> $0.55/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929) | Simplicity, easy to use <br><br> I already own one <br><br> Reliable | High dropout voltage <br><br> Gets hot  |
-| **![](ncv.jpg)** Option 2 <br> UA7805CKCS <br> $1.34/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/UA7805CKCSE3/1494012) | Can handle higher current <br><br> Very reliable design <br><br> Good performance under heavy loads | Also has a high dropout <br><br> Can create heat if input voltage is much higher than 5V. |
-| **![](drv.jpg)** Option 3 <br> AMS1117-5.0 <br> $0.12/each <br> [Link to Product](https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130) | Lower dropout (about 1.1V) <br><br> Very cheap <br><br> Compact | Can only handle about 1A of current <br><br> Runs hot at high load <br><br> TNot as robust as the 7805  |
+| **![](lm7.png)** Option 1 <br> LM7805 <br> $0.55/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/LM7805CT-NOPB/3901929) | Simplicity, easy to use <br><br> I already own one <br><br> Reliable | High dropout voltage <br><br> Gets hot  |
+| **![](ua7.png)** Option 2 <br> UA7805CKCS <br> $1.34/each <br> [Link to Product](https://www.digikey.com/en/products/detail/texas-instruments/UA7805CKCSE3/1494012) | Can handle higher current <br><br> Very reliable design <br><br> Good performance under heavy loads | Also has a high dropout <br><br> Can create heat if input voltage is much higher than 5V. |
+| **![](ams1.png)** Option 3 <br> AMS1117-5.0 <br> $0.12/each <br> [Link to Product](https://www.digikey.com/en/products/detail/evvo/AMS1117-5-0/24370130) | Lower dropout (about 1.1V) <br><br> Very cheap <br><br> Compact | Can only handle about 1A of current <br><br> Runs hot at high load <br><br> TNot as robust as the 7805  |
 
 **Choice:** LM7805
 **Rationale:** I chose the FAN8100N driver because it is simple to use, fits easily into our circuit, and we already have it available. This saves time and avoids buying new parts. Although it lacks advanced features and may be older hardware, it is still suitable because the motor only needs basic control (on/off and forward/reverse). Long-term durability or advanced functions are not important for this project.
