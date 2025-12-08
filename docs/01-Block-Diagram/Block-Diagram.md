@@ -14,4 +14,4 @@ The subsystem is powered by a 9V supply, with a 5V regulator providing the logic
 ## Lid Motor Subsystem Block Diagram
 Vedaa Ubale's Lid Motor Subsystem 
 
-![Indivial Block diagram](vedaafinalblockdiagrammotor.drawio.png)
+![Indivial Block diagram](vedaafinalblockdiagrammotorfinal.drawio.png)
