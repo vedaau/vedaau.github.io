@@ -56,6 +56,20 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 <br>
 <br>
 
+
+**Final Component Selection Summary**
+
+| Component | Part Number  | Function | Rationale |
+| ----- | ----- | ----- | ----- | 
+| Motor | gd | g | g | 
+| H-Bridge | g | g | g | 
+| Voltage Regulator | g | g | g |
+| Power Supply | g | g | g | 
+
+
+
+
+
 **MCC Configuration**
 
 | Component | Pin  | Pin Type | Direction | Purpose |
