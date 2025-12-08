@@ -57,9 +57,9 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 **MCC Configuration**
 
 | Component | Pin  | Pin Type | Direction | Purpose |
-| Motor | ----- | ----- | ----- | ----- |
-| H-Bridge | ----- | ----- | ----- | ----- |
-| Ribbon Connector | ----- | ----- | ----- | ----- |
-| Button | ----- | ----- | ----- | ----- |
-| LED | ----- | ----- | ----- | ----- |
-| idk yet | ----- | ----- | ----- | ----- |
+| ----- | ----- | ----- | ----- | ----- |
+| H-Bridge | gd | g | g | g |
+| Ribbon Connector | g | g | g | g |
+| Button | g | g | g | g |
+| LED | g | g | g | g |
+| idk yet | g | g | g | g |
