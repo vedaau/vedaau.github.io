@@ -61,10 +61,10 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 
 | Component | Part Number  | Function | Rationale |
 | ----- | ----- | ----- | ----- | 
-| Motor | gd | g | g | 
-| H-Bridge | g | g | g | 
-| Voltage Regulator | g | g | g |
-| Power Supply | g | g | g | 
+| Motor | 33JPF-15380-50 | Moves the lid open and closed when it receives power from the motor driver | This motor was chosen because it has enough torque, is easy to control, and fits the design without extra cost | 
+| H-Bridge | FAN8100N | Controls the direction and speed of the motor so it can open or close the lid on command | I chose this because it is simple, already available, and provides the basic forward and reverse control the motor needs | 
+| Voltage Regulator | LM7805 | To ensure that only 5V of power runs through the circuit | I chose the LM7805 because it is reliable, easy to use, and already available. It gives a steady 5 voltage output |
+| Power Supply | BestCH/EA10302 | Provides 9V power to the circuit | This power supply gives a steady, reliable output with built in overload protection. It starts up smoothly and helps prevent voltage spikes, making it a safe and dependable choice for the circuit | 
 
 
 
