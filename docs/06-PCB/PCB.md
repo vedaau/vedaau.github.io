@@ -15,7 +15,7 @@ Figure 01: Showing Vedaa's Front PCB Design.
 Figure 02: Showing Vedaa Ubale's Back PCB Design.
 ![Back PCB](motorsubsystem-B_Cu1.png){style width:"350" height:"300;"}
 
-The Front PCB design as a PDF download is available [*here*](motorsubsystem-F_Cu.pdf). <br>
-The Back PCB design as a PDF download is available [*here*](motorsubsystem-B_Cu.pdf). <br>
-The Zip folder of the project is available [*here*](motorsubsystemvedaaubale.zip). <br>
-The Zip folder of the Gerber and drill files are [*here*](motorsubsystemgerberdrl.zip).
+The Front PCB design as a PDF download is available [*here*](motorsubsystem-F_Cufinal.pdf). <br>
+The Back PCB design as a PDF download is available [*here*](motorsubsystem-B_Cufinal.pdf). <br>
+The Zip folder of the project is available [*here*](motorsubsystemfinal.zip). <br>
+The Zip folder of the Gerber and drill files are [*here*](motorpcbgerberdrill.zip).
