@@ -10,13 +10,13 @@ This section contains the PCB (Printed Circuit Board) design for the AutoCan pro
 ## PCB Layout
 
 Figure 01: Both layers of PCB Design.
-![Front PCB](motorsubsystem-FB_Cu){style width:"350" height:"300;"}
+![Front PCB](motorsubsystem-FB_Cu.png){style width:"350" height:"300;"}
 
 Figure 02: Top layer of PCB Design.
-![Front PCB](motorsubsystem-F_Cufinal){style width:"350" height:"300;"}
+![Front PCB](motorsubsystem-F_Cufinal.png){style width:"350" height:"300;"}
 
 Figure 03: Back layer of PCB Design.
-![Back PCB](motorsubsystem-B_Cufinal){style width:"350" height:"300;"}
+![Back PCB](motorsubsystem-B_Cufinal.png){style width:"350" height:"300;"}
 
 The Front PCB design as a PDF download is available [*here*](motorsubsystem-F_Cufinal.pdf). <br>
 The Back PCB design as a PDF download is available [*here*](motorsubsystem-B_Cufinal.pdf). <br>
