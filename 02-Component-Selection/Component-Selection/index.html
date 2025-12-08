@@ -808,7 +808,7 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 </table>
 <p><strong>Choice:</strong> LM7805</p>
 <p><strong>Rationale:</strong> I chose the LM7805 because it is easy to use, reliable, and I already have one available. It provides a steady 5V output and works well for simple circuits like this project. Even though it has a higher dropout voltage and can get warm, the current needs of this project are so that it will still work fine.</p>
-<p><strong>Power</strong> </p>
+<p><strong>External Power Supply</strong> </p>
 <table>
 <thead>
 <tr>
@@ -819,24 +819,24 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 </thead>
 <tbody>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../16999.jpg" data-desc-position="bottom"><img alt="" src="../16999.jpg"></a></strong> Option 1 <br> FAN8100N <br> $1.16/each <br> <a href="https://www.digikey.com/en/products/detail/onsemi/FAN8100N/966896?&amp;msclkid=4365b6bb40ef1801d8acdfa0c82914a2&amp;gclid=4365b6bb40ef1801d8acdfa0c82914a2&amp;gclsrc=3p.ds&amp;gad_source=7&amp;gad_campaignid=21987644300">Link to Product</a></td>
-<td>Simplicity, easy to use <br><br> I already own one <br><br> Cheap</td>
-<td>No longer manufactured <br><br> Lacks advanced features</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../16999.jpg" data-desc-position="bottom"><img alt="" src="../16999.jpg"></a></strong> Option 1 <br> BestCH 9V 3.0A AC Adapter <br> $4.52/each <br> <a href="https://www.digikey.com/en/products/detail/onsemi/FAN8100N/966896?&amp;msclkid=4365b6bb40ef1801d8acdfa0c82914a2&amp;gclid=4365b6bb40ef1801d8acdfa0c82914a2&amp;gclsrc=3p.ds&amp;gad_source=7&amp;gad_campaignid=21987644300">Link to Product</a></td>
+<td>Reliable <br><br> Automatic overload cut off <br><br> No voltage fluctuations</td>
+<td>Higher heat output <br><br> Cannot handle high voltage</td>
 </tr>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ncv.jpg" data-desc-position="bottom"><img alt="" src="../ncv.jpg"></a></strong> Option 2 <br> NCV7703CD2R2G <br> $2.40/each <br> <a href="https://www.digikey.com/en/products/detail/onsemi/NCV7703CD2R2G/7325621">Link to Product</a></td>
-<td>Flexible motor/bridge control <br><br> Protection features built-in. <br><br> Cost-effective <br><br> Widely available.</td>
-<td>Limited continuous current capability. <br><br> Potential complexity in firmware/hardware integration.</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../ncv.jpg" data-desc-position="bottom"><img alt="" src="../ncv.jpg"></a></strong> Option 2 <br> DCU120050D4740 12V power supply <br> $7.65/each <br> <a href="https://www.digikey.com/en/products/detail/onsemi/NCV7703CD2R2G/7325621">Link to Product</a></td>
+<td>Compact <br><br> Consistent voltage supply <br><br> Cost-effective <br><br> Widely available.</td>
+<td>Unregulated current output <br><br> Low output current</td>
 </tr>
 <tr>
-<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../drv.jpg" data-desc-position="bottom"><img alt="" src="../drv.jpg"></a></strong> Option 3 <br> DRV8220DSGR <br> $0.88/each <br> <a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8220DSGR/15295769">Link to Product</a></td>
-<td>Good output current for small / medium motors. <br><br> Low-power sleep mode.<br><br> Compact.<br><br> Wide voltage range.</td>
-<td>Not for heavy-duty <br><br> Incompatible with PCB <br><br> Thermal / power dissipation constraints.</td>
+<td><strong><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../drv.jpg" data-desc-position="bottom"><img alt="" src="../drv.jpg"></a></strong> Option 3 <br> WR9HD1333CCP-F(R6B) 9V Power Supply <br> $6.23/each <br> <a href="https://www.digikey.com/en/products/detail/texas-instruments/DRV8220DSGR/15295769">Link to Product</a></td>
+<td>Wide input voltage range <br><br> Sufficient voltage for small circuits <br><br> Efficient</td>
+<td>Polarity &amp; Connector Compatibility <br><br> Voltage Stability / Headroom Limitations</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> FAN8100N<br>
-<strong>Rationale:</strong> I chose the FAN8100N driver because it is simple to use, fits easily into my circuit, and I already have it available. This saves time and avoids buying new parts. Although it lacks advanced features and may be older hardware, it is still suitable because the motor only needs basic control (on/off and forward/reverse). Long-term durability or advanced functions are not important for this project.</p>
+<p><strong>Choice:</strong> BestCH 9V 3.0A AC Adapter<br>
+<strong>Rationale:</strong> This power supply gives a steady, reliable output and includes overload protection to keep your electronics safe. It powers on smoothly, helping avoid sudden voltage spikes that could harm your circuits or cause weird startup problems. Overall, it’s a dependable and easy-to-use option with helpful safety features.</p>
 
 
 
