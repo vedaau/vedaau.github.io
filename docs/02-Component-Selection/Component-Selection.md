@@ -53,6 +53,7 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 
 **Choice:** BestCH 9V 3.0A AC Adapter  
 **Rationale:** This power supply gives a steady, reliable output and includes overload protection to keep your electronics safe. It powers on smoothly, helping avoid sudden voltage spikes that could harm your circuits or cause weird startup problems. Overall, it’s a dependable and easy-to-use option with helpful safety features.
+<br>
 
 **MCC Configuration**
 
