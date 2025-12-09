@@ -755,7 +755,9 @@
   <h1>PCB Design</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This section contains the PCB (Printed Circuit Board) design for the AutoCan project. The PCB integrates the components from the schematic into a physical board layout that can be manufactured and assembled.</p>
+<p>This section contains the PCB (Printed Circuit Board) design for the AutoCan project. The PCB integrates the components from the schematic into a physical board layout that can be manufactured and assembled. On my PCB, I organized all of the major parts of the motor subsystem so that power, control, and motor signals flow cleanly across the board. The barrel jack and fuse are placed near the top edge so the incoming 9 volt supply enters the board safely and immediately passes through protection before reaching anything else. From there, the power traces split so the motor receives the full 9 volts while the LM7805 regulator creates the 5 volt rail for the microcontroller and other low voltage parts. I placed decoupling capacitors close to the regulator and H bridge to keep the power stable and reduce noise from the motor.</p>
+<p>The PIC18F57Q43 Curiosity Nano sits at the center of the PCB, acting as the main controller for the system. I routed the forward and reverse control traces from the PIC directly to the FAN8100N H bridge to keep those signals short and clear. The H bridge and motor connector are located on the left side of the board so the high current motor paths stay grouped together and away from the sensitive logic traces. This helps reduce electrical noise and keeps the board easier to debug.</p>
+<p>On the right side, I placed the connector for the IR subsystem along with the debug button and LED. Keeping the debug interface close to the PIC helps maintain signal integrity and gives me easy access for troubleshooting. I also added two test points near the H bridge so I can quickly check the forward and reverse signals with a multimeter or oscilloscope. Overall, I arranged the PCB so that power flows from the top, high current stays isolated, and external connections are easy to reach. This layout makes the board cleaner, safer, and much easier to work with during testing and assembly.</p>
 <h2 id="pcb-layout">PCB Layout</h2>
 <p>Figure 01: Both layers of PCB Design.
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../motorsubsystem-FB_Cu.png" data-desc-position="bottom"><img alt="Front PCB" height:_300_="height:&quot;300;&quot;" src="../motorsubsystem-FB_Cu.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
@@ -764,8 +766,10 @@
 <p>Figure 03: Back layer of PCB Design.
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../motorsubsystem-B_Cufinal.png" data-desc-position="bottom"><img alt="Back PCB" height:_300_="height:&quot;300;&quot;" src="../motorsubsystem-B_Cufinal.png" style="style" width:_350_="width:&quot;350&quot;"></a></p>
 <h2 id="final-pcb">Final PCB</h2>
-<p>Our team did not receive the PCBs in time to solder and test them. However, these are pictures of the front and back view of the raw PCB:
-<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../frontpcb.jpeg" data-desc-position="bottom"><img alt="Front view of raw PCB" height:_300_="height:&quot;300;&quot;" src="../frontpcb.jpeg" style="style" width:_350_="width:&quot;350&quot;"></a>
+<p>Our team did not receive the PCBs in time to solder and test them. However, these are pictures of the front and back view of the raw PCB:</p>
+<p>Front view:
+<a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../frontpcb.jpeg" data-desc-position="bottom"><img alt="Front view of raw PCB" height:_300_="height:&quot;300;&quot;" src="../frontpcb.jpeg" style="style" width:_350_="width:&quot;350&quot;"></a></p>
+<p>Back view:
 <a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../backpcb.jpeg" data-desc-position="bottom"><img alt="Back view of raw PCB" height:_300_="height:&quot;300;&quot;" src="../backpcb.jpeg" style="style" width:_350_="width:&quot;350&quot;"></a></p>
 <p>The Front PCB design as a PDF download is available <a href="../motorsubsystem-F_Cufinal.pdf"><em>here</em></a>. <br>
 The Back PCB design as a PDF download is available <a href="../motorsubsystem-B_Cufinal.pdf"><em>here</em></a>. <br>
