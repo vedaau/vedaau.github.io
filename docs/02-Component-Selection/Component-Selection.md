@@ -67,7 +67,8 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 | Power Supply | BestCH/EA10302 | Provides 9V power to the circuit | This power supply gives a steady, reliable output with built in overload protection. It starts up smoothly and helps prevent voltage spikes, making it a safe and dependable choice for the circuit | 
 
 
-
+<br>
+<br>
 
 
 **MCC Configuration**
