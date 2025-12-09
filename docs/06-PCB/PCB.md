@@ -18,6 +18,12 @@ Figure 02: Top layer of PCB Design.
 Figure 03: Back layer of PCB Design.
 ![Back PCB](motorsubsystem-B_Cufinal.png){style width:"350" height:"300;"}
 
+## Final PCB
+
+Our team did not receive the PCBs in time to solder and test them. However, these are pictures of the front and back view of the raw PCB:
+![Front view of raw PCB](frontpcb.jpeg){style width:"350" height:"300;"}
+![Back view of raw PCB](backpcb.jpeg){style width:"350" height:"300;"}
+
 The Front PCB design as a PDF download is available [*here*](motorsubsystem-F_Cufinal.pdf). <br>
 The Back PCB design as a PDF download is available [*here*](motorsubsystem-B_Cufinal.pdf). <br>
 The Zip folder of the project is available [*here*](motorsubsystemfinal.zip). <br>
