@@ -74,8 +74,8 @@ The downsides such as some gearbox noise, lower precision, and shorter life unde
 
 | Component | Pin  | Pin Type | Direction | Purpose |
 | ----- | ----- | ----- | ----- | ----- |
-| H-Bridge | gd | g | g | g |
-| Ribbon Connector | g | g | g | g |
-| Button | g | g | g | g |
-| LED | g | g | g | g |
-| idk yet | g | g | g | g |
+| H-Bridge (REV/FWD) | RD2/RD3 | Digital | Output | tell the H bridge which way the motor should turn |
+| Ribbon Connector | RF6 | Digital | Input | brings signals from the IR subsystem into the PIC so the motor can respond when the lid should open or close |
+| Button | RF4 | Digital | Input | lets you manually trigger functions or test the system |
+| LED | RC7 | Digital | Output | shows simple status or test signals |
+
