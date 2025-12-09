@@ -60,9 +60,4 @@ nav:
   - Microcontroller Code: 07-Microcontroller-Code/Microcontroller-Code.md
   - Resources: 08-Resources/Resources.md
   - Hardware V2.0: 09-Hardware-V2.0/Hardware-V2.md
-  - Appendix: 
-    - Appendix/index.md
-    - Basic Markdown Examples: Appendix/basic-markdown-examples.md
-    - Charts: Appendix/charts.md
-    - ESP-32 Table: Appendix/esp-32-table.md
-    - Another Subfile: Appendix/another-subfile.md
+ 
