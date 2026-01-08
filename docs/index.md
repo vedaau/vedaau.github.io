@@ -29,6 +29,6 @@ for<br>
 * This needs to be updated to reflect a team introduction
 * Content should also help an unfamiliar reader navigate to areas of interest. Information like:
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR3104DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
+To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
 
 For all the sections
