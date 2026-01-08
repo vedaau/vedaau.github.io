@@ -10,8 +10,8 @@ theme:
     accent: indigo
   font:
     text: Roboto
-  logo: static/logo304.svg
-  favicon: static/logo304.png
+  logo: static/logo.svg
+  favicon: static/logo.png
 
   features:
     - navigation.tabs
@@ -59,11 +59,11 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2025 team-name-here"
+copyright: "Copyright &copy; 2026 team-name-here"
 
 extra:
   generator: false
   social:
     - icon: fontawesome/regular/file-code
-      link: /2025_fall
+      link: /2026_spring
       name: 2023 Site    
