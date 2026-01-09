@@ -1,22 +1,8 @@
 ---
-title: Module's Selected Major Components
+title: Appendix - Module's Major Components Selection Process
 ---
 
-## Module's Selected Major Components
-
-The following sections are the selected major components necessary for  .....
-
-### Selected Microcontroller
-
-The selected Microcontroller is ....
-
-> For PIC
-
-For details on ... (add YOUR Words) ... in ["Appendix - PIC Selection Process"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/pic-table/) section of the datasheet.  
-
-> For ESP32
-
-For details on ... (add YOUR Words) ... in ["Appendix - ESP32 Selection Process"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/esp-32-table/) section of the datasheet.
+## Module's Major Components Selection Process
 
 >**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
 

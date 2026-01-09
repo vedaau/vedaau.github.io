@@ -1,5 +1,5 @@
 ---
-title: Power Budget
+title: Appendix - Power Budget
 ---
 
 ## Overview
