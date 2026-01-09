@@ -1,5 +1,5 @@
 ---
-title: Appendix - Example Controller Table for the ESP32
+title: Appendix - Controller Table for the ESP32
 ---
 
 | ESP Info                                      | Answer | Help                                                                                                      |

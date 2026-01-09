@@ -1,8 +1,8 @@
 ---
-title: PIC Table
+title: Appendix - Controller Table for the PIC
 ---
 
-| ESP Info                                      | Answer | Help                                                                                                      |
+| PIC Info                                      | Answer | Help                                                                                                      |
 | --------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
 | Model                                         | ?      | Include the entire part number (leave off any letters at the end that specify the package type)           |
 | Product Page URL                              | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
