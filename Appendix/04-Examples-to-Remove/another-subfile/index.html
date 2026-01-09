@@ -9,11 +9,13 @@
       
       
       
-        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/d-Examples-to-Remove/charts/">
+        <link rel="canonical" href="https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/04-Examples-to-Remove/another-subfile/">
       
       
-        <link rel="prev" href="../basic-markdown-examples/">
+        <link rel="prev" href="../../03-Power-Budget/Power-Budget/">
       
+      
+        <link rel="next" href="../basic-markdown-examples/">
       
       
       <link rel="icon" href="../../../static/logo314.png">
@@ -24,7 +26,7 @@
 
     
       
-        <title>Appendix - Charts Example - EGR 314 Data Sheet Template</title>
+        <title>Appendix - Another Subfile - EGR 314 Data Sheet Template</title>
       
     
     
@@ -118,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Appendix - Charts Example
+              Appendix - Another Subfile
             
           </span>
         </div>
@@ -723,11 +725,11 @@
         
   
   
-    <a href="../../a-Componet-Selection/Component-Selection-Process/" class="md-nav__link">
+    <a href="../../01-Componet-Selection/Component-Selection-Process/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
-    a Componet Selection
+    01 Componet Selection
   </span>
   
 
@@ -772,11 +774,11 @@
         
   
   
-    <a href="../../b-Microcontroller-Selection/esp-32-table/" class="md-nav__link">
+    <a href="../../02-Microcontroller-Selection/esp-32-table/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
-    b Microcontroller Selection
+    02 Microcontroller Selection
   </span>
   
 
@@ -819,11 +821,11 @@
         
   
   
-    <a href="../../c-power-budget/Power-Budget/" class="md-nav__link">
+    <a href="../../03-Power-Budget/Power-Budget/" class="md-nav__link">
       
   
   <span class="md-ellipsis">
-    C power budget
+    03 Power Budget
   </span>
   
 
@@ -875,7 +877,7 @@
             
   
   <span class="md-ellipsis">
-    d Examples to Remove
+    04 Examples to Remove
   </span>
   
 
@@ -885,7 +887,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7_5">
             <span class="md-nav__icon md-icon"></span>
-            d Examples to Remove
+            04 Examples to Remove
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -893,10 +895,17 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../another-subfile/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -905,6 +914,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -935,17 +945,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../charts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -954,7 +957,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1006,7 +1008,7 @@
                   
 
   
-    <a href="https://github.com/embedded-systems-design/EGR314DataSheetTemplate/edit/main/docs/Appendix/d-Examples-to-Remove/charts.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/embedded-systems-design/EGR314DataSheetTemplate/edit/main/docs/Appendix/04-Examples-to-Remove/another-subfile.md" title="Edit this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z"></path></svg>
     </a>
@@ -1014,35 +1016,9 @@
   
 
 
-  <h1>Appendix - Charts Example</h1>
+  <h1>Appendix - Another Subfile</h1>
 
-<pre class="mermaid"><code>graph LR
-  A[Start] --&gt; B{Error?};
-  B --&gt;|Yes| C[Hmm...];
-  C --&gt; D[Debug];
-  D --&gt; B;
-  B ----&gt;|No| E[Yay!];</code></pre>
-<pre class="mermaid"><code>sequenceDiagram
-  autonumber
-  Alice-&gt;&gt;John: Hello John, how are you?
-  loop Healthcheck
-      John-&gt;&gt;John: Fight against hypochondria
-  end
-  Note right of John: Rational thoughts!
-  John--&gt;&gt;Alice: Great!
-  John-&gt;&gt;Bob: How about you?
-  Bob--&gt;&gt;John: Jolly good!</code></pre>
-<pre class="mermaid"><code>stateDiagram-v2
-  state fork_state &lt;&lt;fork&gt;&gt;
-    [*] --&gt; fork_state
-    fork_state --&gt; State2
-    fork_state --&gt; State3
-
-    state join_state &lt;&lt;join&gt;&gt;
-    State2 --&gt; join_state
-    State3 --&gt; join_state
-    join_state --&gt; State4
-    State4 --&gt; [*]</code></pre>
+<p>Things to discuss</p>
 
 
 
@@ -1081,7 +1057,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer">
         
           
-          <a href="../basic-markdown-examples/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Appendix - Basic Markdown Examples">
+          <a href="../../03-Power-Budget/Power-Budget/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Appendix - Power Budget">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
@@ -1091,11 +1067,27 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Appendix - Basic Markdown Examples
+                Appendix - Power Budget
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../basic-markdown-examples/" class="md-footer__link md-footer__link--next" aria-label="Next: Appendix - Basic Markdown Examples">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Appendix - Basic Markdown Examples
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+            </div>
+          </a>
         
       </nav>
     
