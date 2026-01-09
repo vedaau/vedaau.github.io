@@ -51,17 +51,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-Examples-to-Remove/another-subfile/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-power-budget/Power-Budget/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-Examples-to-Remove/basic-markdown-examples/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/d-Examples-to-Remove/another-subfile/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-Examples-to-Remove/charts/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/d-Examples-to-Remove/basic-markdown-examples/</loc>
+         <lastmod>2026-01-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/d-Examples-to-Remove/charts/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
