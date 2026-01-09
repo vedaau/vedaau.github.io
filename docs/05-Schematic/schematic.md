@@ -1,5 +1,5 @@
 ---
-title: Schematic
+title: Module Schematic
 ---
 
 ## Overview

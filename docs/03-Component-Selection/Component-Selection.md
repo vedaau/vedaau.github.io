@@ -1,8 +1,30 @@
 ---
-title: Component Selection Example
+title: Module Components Selection
 ---
 
-## Examples
+## Module's Major Components Selection
+The following sections document the selection process for the different major components necessary .....
+
+### Microcontroller
+
+jblknu
+
+**For each of the following sections, use one of the two sylte given near the end. *REMOVE THIS NOTE***
+
+### Power Managament
+
+(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable})
+
+### Sensor
+
+(**remove this note/placeholder**: if applicable, this is where your go through the sensor selection process, otherwise, remove this section.)
+
+### Actuator
+
+(**remove this note/placeholder**: if applicable, this is where your go through the motor selection process which includes both the driver and motor, otherwise, remove this section.)
+
+-----------
+> Remove the following before submitting!
 
 ### Style 1
 
