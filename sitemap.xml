@@ -36,22 +36,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/another-subfile/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/a-Componet-Selection/Component-Selection-Process/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/basic-markdown-examples/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/b-Controller-Selection/esp-32-table/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/charts/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/b-Controller-Selection/pic-table/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/esp-32-table/</loc>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-Examples-to-Remove/another-subfile/</loc>
+         <lastmod>2026-01-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-Examples-to-Remove/basic-markdown-examples/</loc>
+         <lastmod>2026-01-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/c-Examples-to-Remove/charts/</loc>
          <lastmod>2026-01-09</lastmod>
          <changefreq>daily</changefreq>
     </url>
