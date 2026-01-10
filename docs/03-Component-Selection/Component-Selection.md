@@ -12,28 +12,34 @@ The selected Microcontroller is ....
 
 > For PIC
 
-For details on ... (add YOUR Words) ... in ["Appendix - PIC Selection Process"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/pic-table/) section of the datasheet.  
+For details on ... (add YOUR Words) ... in ["Appendix - PIC Selection Process"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/02-Microcontroller-Selection/pic-table/) section of the datasheet.  
 
 > For ESP32
 
-For details on ... (add YOUR Words) ... in ["Appendix - ESP32 Selection Process"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/esp-32-table/) section of the datasheet.
+For details on ... (add YOUR Words) ... in ["Appendix - ESP32 Selection Process"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/02-Microcontroller-Selection/esp-32-table/) section of the datasheet.
 
 >**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
 
-### Power Managament
+### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable})
+(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+
+For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/Power-Management) selection.
 
 ### Sensor
 
-(**remove this note/placeholder**: if applicable, this is where your go through the sensor selection process, otherwise, remove this section.)
+(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
+
+For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/Sensor) selection.
 
 ### Actuator
 
-(**remove this note/placeholder**: if applicable, this is where your go through the motor selection process which includes both the driver and motor, otherwise, remove this section.)
+(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
+
+For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/Actuator) selection.
 
 -----------
-> Remove the following before submitting!
+> Remove the following before submitting! Use them to present the selected components
 
 ### Style 1
 
@@ -43,14 +49,11 @@ For details on ... (add YOUR Words) ... in ["Appendix - ESP32 Selection Process"
 
 **External Clock Module**
 
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
+| **Componet**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** A clock oscillator is easier ....
 
 ### Style 2
 
@@ -71,19 +74,4 @@ For details on ... (add YOUR Words) ... in ["Appendix - ESP32 Selection Process"
     | Compatible with PSoC                      | Needs special PCB layout.                                        |
     | Meets surface mount constraint of project |
 
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+**Rationale:** A clock oscillator is easier ...

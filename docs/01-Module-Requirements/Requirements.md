@@ -1,11 +1,11 @@
 ---
-title: Module Requirments
+title: Module's Requirments
 ---
 
 ## Module Requirements
 The following sections document the requirements that the this module need to fulfills to .....
 
-| **Requirement Description** | **Measure of Threshold** | **Target Measure** |**Stretch Requirement**|
+| **Requirement Description** | **Measure of<br> Threshold** | **Target<br>Measure** |**Stretch<br>Requirement<br>(Y-N)**|
 |-----------------------------| ----------------- | ----------------- | :-----: |
 | Surface mounted, 3.3V switching power regulatore | 3.2 Volts | 3.3 Volts | No |
 | Surface mounted microcontroller | 1 PIC or ESP | 8-bit PIC | No |

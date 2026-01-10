@@ -6,7 +6,7 @@ title: Appendix - Module's Major Components Selection Process
 
 >**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
 
-### Power Managament
+### Power Management
 
 (**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable})
 
