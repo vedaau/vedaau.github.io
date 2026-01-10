@@ -1,5 +1,5 @@
 ---
-title: Module's Requirments
+title: Module's Requirements
 ---
 
 ## Module Requirements
