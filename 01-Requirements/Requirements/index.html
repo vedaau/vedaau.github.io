@@ -825,7 +825,7 @@
   <h1>Module's Requirements</h1>
 
 <h2 id="module-requirements">Module Requirements</h2>
-<p>The following sections document the requirements that the this module need to fulfills to .....</p>
+<p>The following sections document the requirements that the this module need to fulfills to provide clear audio input and output, detect vibrations in the ground, and communicate properly with the rest of the robot. These requirements make sure the subsystem can help locate survivors, allow rescuers to talk to them, and meet all project and course system constraints.</p>
 <table>
 <thead>
 <tr>
@@ -840,25 +840,55 @@
 <td>Surface mounted, 3.3V switching power regulatore</td>
 <td>3.2 Volts</td>
 <td>3.3 Volts</td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">N</td>
 </tr>
 <tr>
 <td>Surface mounted microcontroller</td>
 <td>1 PIC or ESP</td>
 <td>8-bit PIC</td>
-<td style="text-align: center;">No</td>
+<td style="text-align: center;">N</td>
 </tr>
 <tr>
 <td>Wireless Communication</td>
 <td>Able to send or receive a Wi-Fi data</td>
 <td>Send and receive Wi-Fi Data to MQTT</td>
-<td style="text-align: center;">Yes</td>
+<td style="text-align: center;">Y</td>
 </tr>
 <tr>
-<td><em>Rest are items your modules needs to support the task you are covering for the team's device.</em></td>
-<td>---</td>
-<td>---</td>
-<td style="text-align: center;"><strong>NO</strong></td>
+<td>Microphone</td>
+<td>The microphone should transmit captured audio to the operator’s control device</td>
+<td>The microphone shall be sensitive enough to clearly capture normal human speech at a distance of 1 meter from the robot</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td>Human Design Interface Integration</td>
+<td>The audio subsystem shall interface with the HMI so that sensor readings and operating states can be viewed on an OLED display and adjusted using physical pushbuttons</td>
+<td>The audio subsystem shall support all MoT features and allow on-device tuning of microphone gain and speaker output through external controls</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td>Peripheral Communication</td>
+<td>The microphone and audio peripherals shall communicate with the main controller using I2C or SPI</td>
+<td>The audio peripherals shall meet all MoT communication requirements</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td>UART Networking</td>
+<td>The audio subsystem shall support a daisy-chained UART connection to the rest of the robot subsystems</td>
+<td>The audio subsystem shall support dedicated UART links for higher-speed communication where required</td>
+<td style="text-align: center;">N</td>
+</tr>
+<tr>
+<td>Speaker</td>
+<td>The subsystem shall be capable of playing operator-provided audio through an onboard speaker while simultaneously monitoring ambient sound</td>
+<td>The subsystem shall reproduce speech at sound levels up to 90 dB in the 2–5 kHz frequency range while continuing to capture environmental audio</td>
+<td style="text-align: center;">Y</td>
+</tr>
+<tr>
+<td>Ground Vibration Detection</td>
+<td>The subsystem shall detect the presence or absence of ground vibrations</td>
+<td>The subsystem shall be able to sense vibration frequencies associated with human footsteps</td>
+<td style="text-align: center;">Y</td>
 </tr>
 </tbody>
 </table>
