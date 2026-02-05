@@ -10,3 +10,10 @@ blockquote{
         color: var(--md-typeset-color);
     }
 }
+:root {
+  --md-primary-fg-color: #f4b6c2;   /* baby pink */
+  --md-primary-fg-color--light: #f9d6dc;
+  --md-primary-fg-color--dark: #e89aa8;
+
+  --md-accent-fg-color: #f7c1cc;
+}
