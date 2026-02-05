@@ -12,5 +12,5 @@ blockquote{
 }
 :root {
   --md-primary-fg-color: #f4a6b8;   /* baby pink */
-
+  --md-accent-fg-color: #f4a6b8;    /* same as primary */
 }
