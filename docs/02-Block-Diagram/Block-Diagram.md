@@ -1,24 +1,13 @@
 ---
-title: Module's Block Diagram
+title: Block Diagram
 tags:
 - tag1
 - tag2
 ---
 
 ## Overview
-This needs to be updated with a brief purpose for having the block diagram.
-Things to mention are:
-* power levels
-* sensor
-* Actuator
-* team connections
-* Power source
-* ...
+This block diagram shows the main parts of the Microphone Subsystem and how they connect to the rest of the robot. It includes the power source and voltage regulator that step 12 V down to 3.3 V for the electronics, the microphone that captures sound from the environment, and the microcontroller that processes the audio data. The diagram also shows the debug LED used for testing and the communication headers that link this subsystem to other team modules. These connections allow the microphone data to be shared with the main system while keeping the subsystem powered and controlled properly.
 
-To get some initial formatting help, one can view ["here"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/Appendix/basic-markdown-examples/) some basic techniques.
+## Audio Subsystem Block Diagram 
 
-
-## Example Block Diagram 
-Showing an example of how to import a screenshot of the block diagram created outside of git and brought into a page.
-
-![Example of Indivial Block diagram ](individual-block-diagram.png)
+![Audio Subsystem Block Diagram](audiobd.drawio.png)
