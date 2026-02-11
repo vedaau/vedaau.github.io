@@ -4,7 +4,7 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections describe the major components used in the Audio(microphone) Subsystem. These include the voltage regulator that provides a stable 3.3 V power supply and the microphone module that captures sound from the environment. Each component was chosen because it works well with the subsystem microcontroller and meets the power and performance needs of the project. Together, these parts allow the subsystem to reliably detect audio signals while keeping the design simple and efficient within the overall robot system.
+The following sections describe the major components used in the Audio(microphone) Subsystem. These include the voltage regulator that provides a stable 3.3 V power supply and the microphone module that captures sound from the environment. Each component was chosen because it works well with the subsystem microcontroller and meets the power and performance needs of the project. Together, these parts allow the subsystem to reliably detect audio signals while keeping the design simple and efficient within the overall system.
 
 ### Power Management
 
