@@ -15,19 +15,19 @@ The following sections describe the major components used in the Audio(microphon
      alt="Product Image">
 
 
-[link](https://www.digikey.com/en/products/detail/rohm-semiconductor/BA33DD0WHFP-TR/3663736)
+[Link to product](https://www.digikey.com/en/products/detail/rohm-semiconductor/BA33DD0WHFP-TR/3663736)
 
 
-### Sensor
+### Microphone
 
-**Selected Sensor:  OV2640 2MP Camera Module**
+**Selected Sensor:  CMA-4544PF-W Microphone**
 
-<img src="https://www.arducam.com/media/catalog/product/cache/45336f8944e7eb3ec4b20e42d64c20ed/a/r/arducam-_ov2640_-camera_module_m0031-1.jpg" 
+<img src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/2/001/212/MFG_MFG_CMA-4544PF-W%28640x640%29.jpg" 
      width="300" 
      alt="Product Image">
 
 
- [link](https://www.arducam.com/arducam-ov2640-camera-module-2mp-mini-ccm-compact-camera-modules-compatible-with-arduino_m0031esp32-esp8266-development-board-with-dvp-24-pin-interface_.html)  
+ [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/CMA-4544PF-W/1869981?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj1J1-wrnvGXGv0h4K-eIZg2&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a68c1BZp6LEFrLCHPUIop5vsIPro80buftPfndr3yCjhH8FneqTxqMaAmJ3EALw_wcB)  
 
 
 
