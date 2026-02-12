@@ -8,9 +8,9 @@ The following sections describe the major components used in the Audio(microphon
 
 ### Power Management
 
-**Selected Power Management Hardware: BA33DD0WHFP-TR 3.3V 2A regulator**
+**Selected Voltage Switchimg Regulator: TC1264-3.3VAB Regulator**
 
-<img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6311/846%7EHRP5%7E%7E5.jpg?hidebanner=true" 
+<img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/150%7EC04-034%7EAB%7E3.jpg?hidebanner=true" 
      width="300" 
      alt="Product Image">
 
@@ -20,9 +20,9 @@ The following sections describe the major components used in the Audio(microphon
 
 ### Microphone
 
-**Selected Sensor:  CMA-4544PF-W Microphone**
+**Selected Sensor:  RS PRO 7542100 Microphone**
 
-<img src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/2/001/212/MFG_MFG_CMA-4544PF-W%28640x640%29.jpg" 
+<img src="https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/F7542100-01" 
      width="300" 
      alt="Product Image">
 
