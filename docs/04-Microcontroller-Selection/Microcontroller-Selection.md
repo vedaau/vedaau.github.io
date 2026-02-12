@@ -13,8 +13,8 @@ tags:
 | ESP32-S3 Datasheet URL                              | [ESP32-S3 Datasheet](https://documentation.espressif.com/esp32-s3_datasheet_en.pdf)                                                                              |
 | ESP32-S3 Technical Reference Manual URL             | [ESP32-S3 Manual](https://documentation.espressif.com/esp32-s3_technical_reference_manual_en.pdf )                                                        |
 | Vendor link                                         | [Digikey](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-S3-WROOM-1-N4/16162639)                       |
-| Code Examples                                       | -  |
-| External Resources URL(s)                           | -  |
+| Code Examples                                       | [Code for reading audio samples via ESP32 ADC](https://github.com/atomic14/esp32_audio)  |
+| External Resources URL(s)                           | [ESP32-S3 ADC documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/adc/index.html), [ESP32 UART programming guide](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/uart.html), [Microphone Component datasheet](https://assets.alliedelec.com/image/upload/v1576062544/Datasheets/4f9566e4b3d0a2191a58ed099a30218b.pdf)  |
 | Unit cost                                           | $5.06                                                               |
 | Absolute Maximum Current for entire IC              | 500 mA                                                                 |
 | Supply Voltage Range                                 | 3V-3.6V                                                |
@@ -25,13 +25,13 @@ tags:
 
 | Module         | # Available | Needed | Associated Pins (or * for any) |
 | -------------- | ----------- | ------ | ------------------------------ |
-| UART           | 3(UART0-2)           | 1      |     GPIO 17-18                         |
-| external SPI | 4(SPI0-3)           | 0      |                              |
-| I2C            | 2           | 1      | GPIO 21-22                              |
-| GPIO           | 45          | 10      | GPIO 1,2,4,5,6,13,14,15                              |
-| ADC            | 2 Units, 20 Channels           | 0      | 0                              |
-| LED PWM        | 8           | 2      | GPIO 12-13                             |
-| USB Programmer | 1           | 1      | GPIO 19-20                            |
+| UART           | 3           | 1      |     GPIO 18                         |
+| external SPI | 4         | 0      |                -              |
+| I2C            | 2           | 0      | -                             |
+| GPIO           | 45          | 4      | GPIO 1,2,5,6                              |
+| ADC            | 20           | 1     | GPIO 4                              |
+| LED PWM        | 8           | 1      | GPIO 12                            |
+| USB Programmer | 1           | 1      | GPIO 20                            |
 
 
 
