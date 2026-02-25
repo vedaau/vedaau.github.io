@@ -25,8 +25,14 @@ for<br>
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
 
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+My part in the Sable project was to design the Audio Subsystem. To do this, I researched and designed parts that would work together to...
+The following are the major steps I have taken in designing my subsystem:  
+
+- To view my Block Diagram, click [here](https://vedaau.github.io/02-Block-Diagram/Block-Diagram/). This part of the design process shows the general idea of how my PCB will function and how it uses a motor and H-Bridge to open and close the lid and communicates with the External IR Sensor and UI Lights subsystem. 
+- To view my Component Selection, click [here](https://vedaau.github.io/03-Component-Selection/Component-Selection/). This part of the design process displays the major components needed to build my subsystem including the motor and supporting circuitry as well as the parts I reviewed to choose the best fit for my design.
+- To review details about materials used in my part of the project, click [here](https://vedaau.github.io/06-BOM/BOM/). 
+- To view my Schematic, click [here](https://vedaau.github.io/07-Schematic/schematic/). This part of the design process shows the schematic for my subsystem, created using KiCad 9.0. 
+- To view my Power Budget, click [here](https://vedaau.github.io/05-Power-Budget/Power-Budget/). This part of the design process shows the expected power consumption of all components in my subsystem, used to select the correct fuse for the power supply.
+
 
