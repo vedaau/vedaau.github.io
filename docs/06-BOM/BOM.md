@@ -16,8 +16,9 @@ Written context needs to added!
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
+0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package | 5 | $0.10 | $0.10 | KEMET | C0805F104K5RACTU | [DigiKey](https://www.digikey.com/en/products/detail/kemet/C322C334Z5U5TA/3726088?gclsrc=aw.ds&gad_source=1&gad_campaignid=20228387720&gclid=Cj0KCQjwmYzIBhC6ARIsAHA3IkTUvAUXjaSi9dtqd5UQ1oWlLs1yzOiD5bXtdA-xDQW9BfX5BuDegBMaAuZIEALw_wcB) | [datasheet link](https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1051_GOLDMAX_Z5U) | C1 |
 
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package | 5 | 0.2750 | $1.375 | KEMET | C0805F104K5RACTU | PRLTA 109 | n/a | C2-C6|
+ | 5 | 0.2750 | $1.375 | KEMET | C0805F104K5RACTU | PRLTA 109 | n/a | C2-C6|
 
 | LED (Green), SMD | 1 | $0.10 | $0.10 | Lite-On Inc. | LTST-C170GKT | [DigiKey](https://www.digikey.com/en/products/detail/liteon/LTST-C170GKT/269226) | [datasheet link](https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/895/LTST-C170GKT.pdf) | D1 |
 
