@@ -6,9 +6,7 @@ tags:
 ---
 
 ## Overview
-Written context needs to added!
-
->Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
+The BOM lists all the parts needed to build the audio subsystem. These include the microcontroller, power regulation components, microphone signal conditioning parts, and supporting items like resistors, capacitors, connectors, and test points. The PIC18F27Q43 microcontroller processes audio data, while the MCP6001 op-amp amplifies the microphone signal so it can be read properly. Power is supplied through a barrel jack and regulated to a stable 3.3 V for the electronics. Other components help the circuit operate correctly, allow debugging, and connect the subsystem to the rest of the robot. Together, these parts enable the subsystem to capture and process audio data reliably.
 
 ## Bill of Materials 
 
