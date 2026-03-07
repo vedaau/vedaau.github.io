@@ -10,9 +10,9 @@ Written context needs to added!
 
 >Pick **ONLY** one of the two examples show below. **Remove** the other example. **REMOVE notations within the remaining section about being an example.**  
 
-## Bill of Materials (Example as Table)
+## Bill of Materials 
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
+*Table #1: Audio Subsystem BOM table*
 
 | **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
 |:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
