@@ -8,21 +8,21 @@ The following sections describe the major components used in the Audio(microphon
 
 ### Power Management
 
-**Selected Voltage Switchimg Regulator: TC1264-3.3VAB Regulator**
+**Selected Voltage Switchimg Regulator: LM2575GR-3.3V Regulator**
 
-<img src="https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6286/150%7EC04-034%7EAB%7E3.jpg?hidebanner=true" 
+<img src="https://mm.digikey.com/Volume0/opasdata/d220001/derivates/1/001/176/122/MFG_TO-263-5L_sml%28200x200%29.jpg" 
      width="300" 
      alt="Product Image">
 
 
-[Link to product](https://www.digikey.com/en/products/detail/microchip-technology/TC1264-3.3VAB/442615?gclsrc=aw.ds&gad_source=1&gad_campaignid=20790518593&gbraid=0AAAAADrbLli0ZT-PF-PBunQ9vVqrEbgw6&gclid=CjwKCAiAqKbMBhBmEiwAZ3UboBYWfaOkWoOk2i8Dx9zRFfUYjNxC4Bj-PdhP4Dzw3kDAWWd71TOCJxoCmtIQAvD_BwE)
+[Link to product](https://www.digikey.com/en/products/detail/taejin/LM2575GR-3-3/22237505)
 
 
 ### Microphone
 
-**Selected Sensor:  RS PRO 7542100 Microphone**
+**Selected Sensor:  CMEJ-0413-42-SMT-TR Microphone**
 
-<img src="https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/F7542100-01" 
+<img src="https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/CMEJ-0413-42-SMT-TR/10253448" 
      width="300" 
      alt="Product Image">
 
@@ -53,8 +53,8 @@ The following sections describe the major components used in the Audio(microphon
 | **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![](https://res.cloudinary.com/rsc/image/upload/b_rgb:FFFFFF,c_pad,dpr_1.0,f_auto,q_auto,w_700/c_pad,w_700/F7542100-01)<br>Option 1.<br> RS PRO 7542100 Microphone <br>$0.61/each<br>[link to product](https://us.rs-online.com/product/rs-pro/7542100/71815654/?gclsrc=aw.ds&gad_source=1&gad_campaignid=22593105799&gbraid=0AAAAAD-9z7Fd9Zc_kUm8eCjX4V2buscHA&gclid=EAIaIQobChMIm4HlmtyGkAMVwTlECB1H-ABrEAQYASABEgLx1_D_BwE)                 | Low cost & compact <br><br> Omnidirectional sound pickup <br><br> Low power requirement <br><br> Easy to integrate   | Not ideal for high-quality recordings <br><br> Noise limitations |        
-| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/2/001/212/MFG_MFG_CMA-4544PF-W%28640x640%29.jpg?hidebanner=true)<br> Option 3. <br> CMA-4544PF-W Microphone <br> $0.76/each <br> [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/CMA-4544PF-W/1869981?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj1J1-wrnvGXGv0h4K-eIZg2&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a68c1BZp6LEFrLCHPUIop5vsIPro80buftPfndr3yCjhH8FneqTxqMaAmJ3EALw_wcB) |  Good sound range <br><br> Low power use <br><br> Omnidirectional | Sensitive to Noise <br><br> Basic audio quality <br><br> Limited temperature range|
-| ![](https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/2/12758-02.jpg)<br> Option 2. <br> SparkFun Electret Microphone Breakout <br> $8.50/each <br> [Link to product](https://www.sparkfun.com/sparkfun-electret-microphone-breakout.html) |  Built-in amplifier <br><br> Ready to use <br><br> Wide operating voltage <br><br> Good for general sound |  Limited frequency range <br><br> Expensive <br><br> Analog output only |   
+| ![](https://mm.digikey.com/Volume0/opasdata/d220001/derivates/2/001/212/MFG_MFG_CMA-4544PF-W%28640x640%29.jpg?hidebanner=true)<br> Option 2. <br> CMA-4544PF-W Microphone <br> $0.76/each <br> [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/CMA-4544PF-W/1869981?gclsrc=aw.ds&gad_source=1&gad_campaignid=20243136172&gbraid=0AAAAADrbLlj1J1-wrnvGXGv0h4K-eIZg2&gclid=Cj0KCQjwjL3HBhCgARIsAPUg7a68c1BZp6LEFrLCHPUIop5vsIPro80buftPfndr3yCjhH8FneqTxqMaAmJ3EALw_wcB) |  Good sound range <br><br> Low power use <br><br> Omnidirectional | Sensitive to Noise <br><br> Basic audio quality <br><br> Limited temperature range|
+| ![](https://www.sparkfun.com/media/catalog/product/cache/a793f13fd3d678cea13d28206895ba0c/1/2/12758-02.jpg)<br> Option 3. <br> CMEJ-0413-42-SMT-TR Microphone <br> $0.59/each <br> [Link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices-/CMEJ-0413-42-SMT-TR/10253448) |  Built-in amplifier <br><br> Ready to use <br><br> Wide operating voltage <br><br> Good for general sound |  Limited frequency range <br><br> Expensive <br><br> Analog output only |   
 
 **Choice:** Option 3: RS PRO 7542100 Microphone 
 
