@@ -69,13 +69,13 @@ extra:
       name: 2023 Site    
 nav:
   - Home: index.md
-  - Requirements: 01-Requirements/index.md
-  - Block Diagram: 02-Block-Diagram/index.md
-  - Component Selection: 03-Component-Selection/index.md
-  - Microcontroller Selection: 04-Microcontroller-Selection/index.md
-  - Power Budget: 05-Power-Budget/index.md
-  - BOM: 06-BOM/index.md
-  - Schematic: 07-Schematic/index.md
-  - PCB: 08-PCB/index.md
-  - Reflection: 09-Reflection/index.md
-  - API: 10-API/index.md
+  - Requirements: 01-Requirements/Requirements.md
+  - Block Diagram: 02-Block-Diagram/Block-Diagram.md
+  - Component Selection: 03-Component-Selection/Component-Selection.md
+  - Microcontroller Selection: 04-Microcontroller-Selection/Microcontroller-Selection.md
+  - Power Budget: 05-Power-Budget/Power-Budget.md
+  - BOM: 06-BOM/BOM.md
+  - Schematic: 07-Schematic/schematic.md
+  - PCB: 08-PCB/pcb.md
+  - Reflection: 09-Reflection/Reflection.md
+  - API: 10-API/API.md
