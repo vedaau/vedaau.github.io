@@ -156,11 +156,6 @@ void __interrupt() timer_isr(void) {
 
 ---
 
-## Software Download
-
-*(Link to zipped MPLabX project will go here)*
-
----
 
 ## Resources
 
