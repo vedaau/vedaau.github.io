@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Vedaa Ubale's Datasheet</font><br>
 as part of<br>
-<font size= "8"> Exploration Project </font><br>
+<font size= "8"> Sable </font><br>
 for<br>
 <font size= "5"> Team 303 </font><br>
 
